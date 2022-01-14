@@ -2,37 +2,61 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  font-family: sans-serif;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: lavender;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/021/768/original/wp2572362-star-wallpaper.jpg?1638060677");
+  background-size: cover;
+  opacity: 0.8;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  background: lightblue;
+  border-color: blue;
+  border-style: solid;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 36px;
+  color: gray;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  color: rgb(85, 106, 199);
+  font-size: 16px;
+  font-weight: 100;
+  opacity: 0.7;
+}
+
+small {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+li:first-letter {
+  text-transform: capitalize;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.city-header {
+  margin: 20px auto;
+  text-align: center;
 }

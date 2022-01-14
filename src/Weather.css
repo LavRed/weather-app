@@ -1,0 +1,41 @@
+.Weather .weather-app {
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+.Weather .weather-forecast {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+.Weather .weather-forecast-date {
+    font-size: 16px;
+  }
+  
+.Weather .weather-forecast-temp {
+    font-size: 13px;
+  }
+  
+.Weather .weather-forecast-temp-max:hover {
+    font-size: 16px;
+  }
+  
+.Weather .weather-forecast-temp-min {
+    opacity: 0.5;
+  }
+  
+.Weather .description {
+    text-transform: capitalize;
+  }
+  
+.Weather .sun-position {
+    text-align: right;
+  }
+  
+.Weather .temperature {
+    font-size: 36px;
+  }
+  
+.Weather .weather-additions {
+    text-align: center;
+  }
