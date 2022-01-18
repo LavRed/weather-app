@@ -2,43 +2,12 @@
   text-align: center;
 }
 
-.App {
-  font-family: sans-serif;
-  text-align: center;
-}
-
-html {
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  background-color: lavender;
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/021/768/original/wp2572362-star-wallpaper.jpg?1638060677");
-  background-size: cover;
-  opacity: 0.8;
-}
-
-body {
-  background: lightblue;
-  border-color: blue;
-  border-style: solid;
-  border-radius: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 36px;
-  color: gray;
-}
-
 a:link {
   text-decoration: none;
 }
 
 ul {
   list-style-type: none;
-  padding: 0;
 }
 
 li {

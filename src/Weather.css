@@ -1,11 +1,16 @@
-.Weather .weather-app {
-    margin: 20px auto;
-    padding: 20px;
-  }
-  
+.Weather {
+  padding: 30px;
+}
+
+.Weather h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 36px;
+  color: gray;
+}
+
+
 .Weather .weather-forecast {
-    margin-top: 20px;
-    text-align: center;
+  text-align: center;
   }
   
 .Weather .weather-forecast-date {

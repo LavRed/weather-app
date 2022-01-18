@@ -63,9 +63,6 @@ export default function Weather() {
                 </div>
             </div>
             </form>
-        <div className="city-header">
-          <h1>{weather.city}</h1>
-        </div>
         </div>
     </div>
     );
@@ -74,6 +71,9 @@ if (loaded) {
   return (
     <div className="Weather">
         {headerForm}
+        <div className="city-header">
+          <h1>{weather.city}</h1>
+        </div>
       <div className="container">
         <div className="weather-app">
           <div>
@@ -136,6 +136,9 @@ if (loaded) {
     return (
         <div className="Weather">
         {headerForm}
+        <div className="city-header">
+          <h1>{city}</h1>
+        </div>
         <div className="container">
         <div className="weather-app">
           <div>
